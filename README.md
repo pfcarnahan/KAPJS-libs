@@ -24,6 +24,12 @@ To start loading sprites:
 SpriteLoader.init(sourceObject, targetObject, optionalCallback);
 ```
 
+**sourceObject** is an object containing the sprites. Each should be an object like the examples below.
+
+**targetObject** is the object where you want to store the loaded sprites. It should be an object.
+
+**optionalCallback** is an optional callback function that will be called when all sprites are loaded.
+
 **NOTE**: When using with my other modules, you need to init() them in the right order. See the main README for more information.
 
 ### Sprite Definition
